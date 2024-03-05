@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="monumentPage" prefHeight="500.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipr.HelloController">
+   <children>
+      <Group layoutX="43.0" layoutY="143.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="153.0" prefHeight="30.0" prefWidth="150.0" text="Taj Mahal" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutY="183.0" prefHeight="30.0" prefWidth="150.0" text="Uttar Pradesh" textFill="#6b6b6b">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="154.0" fitWidth="150.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../TajMahal.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#toTajMahal" opacity="0.0" prefHeight="213.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="39.0" prefWidth="695.0" text="DESTINATIONS">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Group layoutX="273.0" layoutY="143.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="153.0" prefHeight="30.0" prefWidth="150.0" text="Hawa Mahal" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutY="183.0" prefHeight="30.0" prefWidth="150.0" text="Rajasthan" textFill="#6b6b6b">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="154.0" fitWidth="150.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../HawaMahal.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#toHawaMahal" opacity="0.0" prefHeight="213.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group layoutX="496.0" layoutY="120.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="84.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="153.0" prefHeight="53.0" prefWidth="150.0" text="Ajanta and Ellora" wrapText="true">
+               <font>
+                  <Font name="Impact" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutY="205.0" prefHeight="30.0" prefWidth="150.0" text="Maharashtra" textFill="#6b6b6b">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="154.0" fitWidth="150.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../Ajanta&amp;Ellora.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#toAjantaEllora" opacity="0.0" prefHeight="236.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Button fx:id="backButton" layoutX="26.0" layoutY="21.0" mnemonicParsing="false" onAction="#toPreferenceScreen" prefHeight="30.0" prefWidth="34.0" style="-fx-background-radius: 25;" stylesheets="@app.css" text="&lt; Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1100.0" stylesheets="@manaliHotel.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipr.HelloController">
+   <top>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="950.0" spacing="15.0" styleClass="primary-background" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="975.0" text="HOTEL OPTIONS NEAR RAIGAD FORT" textAlignment="RIGHT">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="167.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Lavasa.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="312.0" text="Lavasa Holiday Home ">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text="Lavasa (19.3 km from Raigad Fort)" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Lavasa Holiday Home offers accommodation in Lavasa with views&#10;of lake/mountain. Guests benefit from balcony and a barbecue. &#10;Free private parking is available on site.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="200.0" text="Good     3.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹3000/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="129.0" fitWidth="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../LakeViewLavish.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="312.0" text="Lake View Lavish studio">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text=" Lavasa (19.5 km from Raigad Fort)" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Lake View Lavish studio is situated in Lavasa. The holiday home &#10;consists of 1 separate bedroom, 1 bathroom and a living room.&#10;Free private parking is available at the holiday home.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="210.0" text="Very Good     4.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹4500/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="141.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Portofino.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="44.0" prefWidth="367.0" text="Portofino , Lavasa">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text=" Lavasa (19.2 km from Raigad Fort)" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="The apartment is fitted with 1 bedroom, 1 bathroom, bed linen, &#10;towels, a flat-screen TV with cable channels, a dining area, a fully &#10;equipped kitchen, and a balcony with lake views.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="200.0" text="Excellent     5.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹7000/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#toPreferenceScreen" prefHeight="25.0" prefWidth="63.0" style="-fx-background-radius: 2;" stylesheets="@app.css" text="HOME">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

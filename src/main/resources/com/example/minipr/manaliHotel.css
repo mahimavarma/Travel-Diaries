@@ -1,0 +1,13 @@
+.primary-background {
+  -fx-background-color: #e4e7ec;
+}
+
+.secondary-background {
+  -fx-background-color: #abb2c8;
+}
+
+.card {
+  -fx-background-color: #fff;
+  -fx-background-radius: 20;
+  -fx-effect: dropShadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 10);
+}

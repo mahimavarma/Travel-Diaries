@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="preferencePage" prefHeight="500.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipr.currentController">
+   <children>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="8.0" prefHeight="39.0" prefWidth="600.0" text="PICK YOUR CURRENT LOCATION">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="listOfCity" layoutX="227.0" layoutY="48.0" prefWidth="150.0" promptText="Current Location " />
+      <Button fx:id="backButton" layoutX="31.0" layoutY="15.0" mnemonicParsing="false" onAction="#toPreferenceScreen" style="-fx-background-radius: 20;" stylesheets="@app.css" text="&lt; Go Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Group fx:id="mumbai1" layoutX="31.0" layoutY="149.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../Gateway%20photo.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Gateway Of India" wrapText="true">
+               <font>
+                  <Font name="Impact" size="21.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#toGatewayOfIndia" opacity="0.0" prefHeight="200.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="mumbai2" layoutX="227.0" layoutY="149.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../nehru-planetarium-mumbai-bombay-maharashtra-india-R95HMM.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Nehru Planetarium" wrapText="true">
+               <font>
+                  <Font name="Impact" size="19.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toNehruPlanetarium" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="mumbai3" layoutX="427.0" layoutY="149.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../The-Hanging-Gardens_.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Hanging Garden" wrapText="true">
+               <font>
+                  <Font name="Impact" size="21.0" />
+               </font>
+            </Label>
+            <Button layoutX="2.0" mnemonicParsing="false" onAction="#toHangingGarden" opacity="0.0" prefHeight="200.0" prefWidth="147.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Button fx:id="goButton" layoutX="401.0" layoutY="47.0" mnemonicParsing="false" onAction="#setDestinationVisible" stylesheets="@app.css" text="Search" />
+      <Group fx:id="Jaiselmer1" layoutX="31.0" layoutY="149.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../sam%20sand%20dunes.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Sam Sand Dunes" wrapText="true">
+               <font>
+                  <Font name="Impact" size="20.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#toSamSandDunes" opacity="0.0" prefHeight="200.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Jaiselmer2" layoutX="227.0" layoutY="149.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../jaisalmer-fort.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Jaisalmer Fort" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toJaiselmerFort" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Kolkata1" layoutX="31.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../HowrahBridge.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Howrah Bridge" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#toHowrahBridge" opacity="0.0" prefHeight="200.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Kolkata2" layoutX="227.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../VictoriaMemorial.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Victoria Memorial" wrapText="true">
+               <font>
+                  <Font name="Impact" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toVictoriaMemorial" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Kolkata3" layoutX="427.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../CurrentIndianMuseum.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Indian Museum" wrapText="true">
+               <font>
+                  <Font name="Impact" size="21.0" />
+               </font>
+            </Label>
+            <Button layoutX="2.0" mnemonicParsing="false" onAction="#toCurrentIndianMuseum" opacity="0.0" prefHeight="200.0" prefWidth="147.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Jaiselmer3" layoutX="427.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../PatwonkiHaveliJaisalmer.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Patwaon Ki Havelli" wrapText="true">
+               <font>
+                  <Font name="Impact" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toPatwaonKiHavelli" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Amritsar1" layoutX="29.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../wagahBorder.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Wagah Border" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#toWagahBorder" opacity="0.0" prefHeight="200.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Amritsar2" layoutX="225.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../jallianwalaBagh2.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Jallianwala Bagh" wrapText="true">
+               <font>
+                  <Font name="Impact" size="21.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toJallianwalaBagh" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group fx:id="Amritsar3" layoutX="425.0" layoutY="150.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../goldenTemple3.jpeg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="Golden Temple" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toGoldenTemple" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

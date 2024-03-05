@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="preferencePage" prefHeight="600.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipr.HelloController">
+   <children>
+      <Group layoutX="27.0" layoutY="59.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../mountain.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="HILL STATION" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#toMountainScreen" opacity="0.0" prefHeight="200.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Label alignment="CENTER" layoutX="-2.0" layoutY="11.0" prefHeight="39.0" prefWidth="600.0" text="PICK A PREFERENCE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Group layoutX="223.0" layoutY="59.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../fort.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="FORT" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toFortPage" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group layoutX="423.0" layoutY="59.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@backg.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="BEACH" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="2.0" mnemonicParsing="false" onAction="#toBeachScreen" opacity="0.0" prefHeight="200.0" prefWidth="147.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group layoutX="25.0" layoutY="275.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../hillstation.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="NATIONAL PARK" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#toNationalParkPage" opacity="0.0" prefHeight="200.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group layoutX="221.0" layoutY="275.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../museum.jpeg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="MUSEUM" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutY="4.0" mnemonicParsing="false" onAction="#toMuseumPage" opacity="0.0" prefHeight="194.0" prefWidth="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Group layoutX="421.0" layoutY="275.0">
+         <children>
+            <ImageView fitHeight="154.0" fitWidth="150.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../paris.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+            <Label alignment="CENTER" layoutY="154.0" prefHeight="45.0" prefWidth="150.0" text="MONUMENT" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="2.0" mnemonicParsing="false" onAction="#toMonumentPage" opacity="0.0" prefHeight="200.0" prefWidth="147.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Group>
+      <Button layoutX="172.0" layoutY="513.0" mnemonicParsing="false" onAction="#toAroundMePage" prefHeight="34.0" prefWidth="241.0" text="See Destinations Around Me">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

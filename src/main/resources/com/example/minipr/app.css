@@ -1,0 +1,66 @@
+#loginPage{
+-fx-background-image:url('backg.jpg');
+-fx-background-size:cover;
+}
+
+#registerBg{
+-fx-background-image:url('registerBack.jpg');
+}
+
+#loginButton{
+-fx-background-color: #0096FF;
+}
+
+#preferencePage{
+-fx-background-color: #ADD8E6;
+}
+
+#locationPage, #manaliPage{
+-fx-background-color: #ADD8E6;
+}
+
+#separator_1{
+-fx-background-color: #000000;
+}
+
+#beachPage{
+-fx-background-color: #ADD8E6;
+}
+
+#fortBackG{
+          -fx-background-color: #ADD8E6;
+          }
+
+#monumentPage{
+-fx-background-color: #ADD8E6;
+}
+
+#login_error{
+-fx-color: red;
+}
+
+#loginButton:hover{
+-fx-background-color: #0000A3;
+}
+
+#museumPage{
+-fx-background-color: #ADD8E6;
+}
+
+#nationalParkBack{
+-fx-background-color: #ADD8E6;
+}
+
+#backButton, #goButton{
+    -jfx-button-type: raised;
+    -fx-background-color: #000080;
+    -fx-pref-width: 80;
+    -fx-pref-height: 30;
+    -fx-text-fill: WHITE;
+}
+
+#backButton: hover, #goButton: hover{
+    -fx-background-color: #6495ED;
+}
+
+

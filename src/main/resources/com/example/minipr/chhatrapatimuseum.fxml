@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1100.0" stylesheets="@manaliHotel.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipr.HelloController">
+   <top>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="950.0" spacing="15.0" styleClass="primary-background" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="975.0" text="HOTEL OPTIONS NEAR CSM VASTU SANGRAHALYA" textAlignment="RIGHT">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="167.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Residency.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="312.0" text="Residency Hotel Fort">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text=" 26 Rustom Sidhwa Marg, Mumbai Fort" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="The air-conditioned rooms at Hotel Residency come with private &#10;bathrooms and ironing facilities. Each room is equipped with a &#10;safety deposit box, a mini fridge and tea/coffee making facilities.">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="200.0" text="Good     3.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹5500/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="154.0" fitWidth="187.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Abode.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="312.0" text="Abode Bombay">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text="18, Lansdowne House, Apollo Bunder, Colaba" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Offering a spa and wellness centre, Abode Bombay is located just &#10;100 metres from the popular and iconic Gateway of India. Guests &#10;can approach the 24-hour front desk for assistance.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="210.0" text="Very Good     4.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹6500/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="197.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../TajMahalPalace.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="42.0" prefWidth="364.0" text="The Taj Mahal Palace, Mumbai ">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text="Apollo Bunder Road ,The Taj Mahal Palace , Colaba" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Stylishly designed with Indian-inspired decor and architecture,&#10;the rooms offer amazing sea, city or pool views. Each room comes&#10; with a well-stocked minibar, free WiFi and a luxurious bathroom.">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="200.0" text="Excellent     5.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹12000/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#toPreferenceScreen" prefHeight="25.0" prefWidth="63.0" style="-fx-background-radius: 2;" stylesheets="@app.css" text="HOME">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

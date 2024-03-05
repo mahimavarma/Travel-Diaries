@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minipr.HelloController">
+   <top>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="950.0" spacing="15.0" styleClass="primary-background" stylesheets="@manaliHotel.css" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="887.0" text="HOTEL OPTIONS IN TARKARLI (MAHARASHTRA)" textAlignment="RIGHT">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="106.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Costel.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="312.0" text="Costel">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text=" Malvan (1.6 km from Tarkarli Beach)" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Set in Malvan, 2.6 km from Tarkarli Beach, Costel offers &#10;accommodation with a garden, free private parking, a shared &#10;lounge and a terrace.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="200.0" text="Good     3.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹1000/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="136.0" fitWidth="195.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Chandraprabha.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="312.0" text="Chandraprabha">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text="Malvan (0.7 km from Tarkarli Beach)" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Set in Malvan, within 800 metres of Tarkarli Beach, &#10;Chandraprabha offers accommodation with air conditioning. &#10;This property offers access to a terrace, free WiFi.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="210.0" text="Very Good     4.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹1800/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0" styleClass="card" stylesheets="@../../../style.css">
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="167.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../KonkanVilla.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="150.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="44.0" prefWidth="367.0" text="Konkan Villa Dream">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" text="Hotel in Malvan (1.3 km from Tarkarli Beach)" textFill="#9e8f8f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="402.0" text="Set in Malvan, 1.8 km from Tarkarli Beach, Konkan Villa Dream &#10;offers accommodation with a garden, free private parking and a &#10;terrace.&#10;">
+                           <font>
+                              <Font name="Calibri Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox prefHeight="150.0" prefWidth="250.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label alignment="BASELINE_LEFT" prefHeight="47.0" prefWidth="200.0" text="Excellent     5.0 ★" textFill="#1a5dec">
+                           <font>
+                              <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="30.0" prefWidth="385.0" textFill="#a4a1a1">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="76.0" prefWidth="250.0" text="Range:&#10;Approx ₹2200/- Per Night" textFill="#1a5dec">
+                           <font>
+                              <Font name="Calibri Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#toPreferenceScreen" prefHeight="25.0" prefWidth="63.0" style="-fx-background-radius: 2;" stylesheets="@app.css" text="HOME">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

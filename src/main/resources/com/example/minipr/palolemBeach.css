@@ -1,0 +1,25 @@
+.dark-background {
+-fx-background-color:#e5f5fd;
+}
+
+.pane_1{
+-fx-background-color:#e8fff6;
+-fx-border-width:2px 2px 2px 2px;
+-fx-border-radius:20px;
+-fx-background-radius:20px;
+-fx-border-style:solid;
+-fx-border-color: #748CF1;
+}
+.image-view-wrapper {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 10;
+}
+
+.box-view-wrapper {
+  -fx-border-radius:50px;
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 3;
+}
+
