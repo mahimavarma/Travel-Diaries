@@ -1,4 +1,4 @@
-# traveldiary  
+# Travel diaries  
 Project Demo:-  
 1. The user tries to log in without registering so the error message is shown 'Email not found'
 2. While registering the user puts 'password' and 'confirm password' differently hence it gives the error 'password Mismatch'
